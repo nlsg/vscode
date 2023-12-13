@@ -1,0 +1,46 @@
+{
+    "vim.digraphs": {
+    
+    }
+    ,"vim.normalModeKeyBindingsNonRecursive": [{
+        "before": ["J"],
+        "after": ["<C-e>"]
+        },{
+        "before": ["K"],
+        "after": ["<C-y>"]
+        },{
+          "before": ["P"],
+          "after" : ["V","p","y","y"]          
+        },{
+        },{
+          "before": ["c","_"],
+          "after" : ["c","t","_"]          
+        },{
+          "before": ["C"],
+          "after" : ["c","t","_"]          
+        }]
+    ,"vim.insertModeKeyBindings": [{
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+        },{
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }],
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.visualModeKeyBindings": [
+    
+    ],
+    "autoDocstring.docstringFormat": "sphinx",
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "editor.lineNumbers": "relative",
+    "vscode-office.openOutline": false,
+    "jupyter.askForKernelRestart": false,
+    "explorer.confirmDelete": false,
+    "editor.accessibilitySupport": "off",
+    "notebook.lineNumbers": "on",
+    "notebook.showFoldingControls": "always",
+    "database-client.capitalizeKeywordsWhenformatting": true
+
+}
